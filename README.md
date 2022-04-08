@@ -55,29 +55,47 @@ The primary dimension of the visualization is as followings:
 
 ## Exploratory Data Analysis
 <div align=center>
-<img src="./pics/genre_percent.png">
-  
-**`Percentage of top 10 genres`** : The pie chart shows the distribution of game types. It is apparent from the figures that action game is most popular among all games.
-  
-<img src="./pics/meta-user_score_regress.png">
-  
-**`Meta-user score regression analysis`** :Regression of meta-score and user-score. All the points are located adjacent on either side of the regression line which shows a strong relation between meta-score and user-score.
-  
-<img src="./pics/meta-user_score.png">
-  
-**`Basic statistic`** :The table shows a basic statistic of user score and meta score for each game including mean, standard deviation, quantile,etc. 
-  
-<img src="./pics/platform_rank.png">
-  
-**`Platform score rank`** :Rank of different platforms. Nentindo-64 and stadia rank first and second, out perform than the other platforms.
-  
-<img src="./pics/platform_scores.png">
-  
-**`Platform score distribution`** :Score distribution for platforms, from which we know most people prefer to grade platform between 70 and 85.
-  
+<img src="./pics/genre_percent.png" width="450">
+
+**`Percentage of top 10 genres`** : The pie chart shows the top-10 most popular game genres (based on the game number produced among all the years). It is apparent from the figures that action game is most popular among all games.
+
+<img src="./pics/meta-user_score_regress.png" style="zoom:67%;" >
+
+**`Meta-user score regression analysis`** :Regression of meta-score and user-score. All the points are located adjacent on either side of the regression line, which shows that although there are positive correlation between user and expert people's feedback, there are also discrepancies which we want further dig into.
+
+<img src="./pics/meta-user_score.png" style="zoom:50%;" >
+
+**`Basic statistic for user and meta (expert) score`** :The table shows a basic statistic of user score and meta score for each game including mean, standard deviation, quantile,etc. We found that the user score has larger standard variation value, and also  extreme feedbacks such as a score "2" for a poor game.
+
+<img src="./pics/platform_rank.png" style="zoom: 75%;" >
+
+**`Platform score rank`** :Rank of different platforms. Nentindo-64 and stadia rank first and second, which outperform all other platforms. We could also observe that some recent console playtforms have higher mean game scores such as "Play-station 5" and "Xbox-series-x", which is in line with current market's trend. ([PS5 Sold Out News](https://www.pushsquare.com/guides/ps5-stock-where-to-buy-playstation-5-and-when-in-march-2022))
+
+<img src="./pics/platform_scores.png" style="zoom:80%;" >
+
+**`Platform score distribution`** :Score distribution for platforms, from which we know most games obtain a score between 70 and 85, and the PC is the most common platform for games, followed by Sony's PlayStation4 and PlayStation3
+
+
+
 <img src="./pics/type_score.jpg">
 
-</div>
+**`Score Distribution for single-player and multi-player game`** : Here we plot the user and meta score distribution for single and multi player games. We could observe two interesting points here:
+
+1. The Meta Score distribution has a gap between the range 60-80, while user score distributed more smoothly.
+
+2. When look at the Kernal Density Estimation (KDE) Curve, we could see that normal Users may prefer give higher scores for single-player games while those "Experts" prefer multi-player games.
+
+   
+
+<img src="./pics/Average_meta_scores_over_each_year.png" style="zoom:85%;" >
+
+**`Average meta scores over the years`** : As shown above, the average scores for each year are higher during 1995-1999, which shows that some "old fashion" games are really in favord. Then the average scores go down after the year 2000, which may attribute to the fact that there are more game pipelines appeard, which produce many profit-oriented low-quality games.
+
+
+
+| For other pre-analysis of the dataset, please refer to https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/data_analysis.ipynb
+
+
 
 ## Related Work
 - **`Q1`**: What others have already done with the data?
@@ -91,7 +109,6 @@ We crawled the release date data of the games from orginal websites. The extra i
 - **`Q3`**: What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 
 We use pie chart, bar chart and line chart in our analysis. For each kind of the chart, the bar chart uses the height of the column to reflect the differences in data. The naked eye is very sensitive to height difference and the recognition effect is good. Line charts are suitable for large two-dimensional data sets, especially where trends are more important than individual data points. The pie chart shows the proportion of a certain part in the whole.
-
 
 
 
