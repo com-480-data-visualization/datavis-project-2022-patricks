@@ -91,7 +91,7 @@ The primary dimension of the visualization is as followings:
 
 **`Average meta scores over the years`** : As shown above, the average scores for each year are higher during 1995-1999, which shows that some "old fashion" games are really in favord. Then the average scores go down after the year 2000, which may attribute to the fact that there are more game pipelines appeard, which produce many profit-oriented low-quality games.
 
-
+</div>
 
 > For other pre-analysis of the dataset, please refer to https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/data_analysis.ipynb
 
