@@ -54,7 +54,6 @@ The primary dimension of the visualization is as followings:
 
 
 ## Exploratory Data Analysis
-<div align=center>
 <img src="./pics/genre_percent.png" width="450">
 
 **`Percentage of top 10 genres`** : The pie chart shows the top-10 most popular game genres (based on the game number produced among all the years). It is apparent from the figures that action game is most popular among all games.
@@ -90,8 +89,6 @@ The primary dimension of the visualization is as followings:
 <img src="./pics/Average_meta_scores_over_each_year.png" style="zoom:85%;" >
 
 **`Average meta scores over the years`** : As shown above, the average scores for each year are higher during 1995-1999, which shows that some "old fashion" games are really in favord. Then the average scores go down after the year 2000, which may attribute to the fact that there are more game pipelines appeard, which produce many profit-oriented low-quality games.
-
-</div>
 
 > For other pre-analysis of the dataset, please refer to https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/data_analysis.ipynb
 
