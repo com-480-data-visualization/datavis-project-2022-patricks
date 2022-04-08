@@ -23,7 +23,7 @@ By using the time information, we can boost the information contained in the dat
 
 Apart from release time, we can also gather other information like the comments from players, but it is not the main part.
 
-Actually, we have collected time information by using Python Crawler, and the code is provided [here]
+Actually, we have collected time information by using Python Crawler, and the code is provided [here](https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/Python_Crawler.py)
 
 After colleting release time of each game, we can focus ourselves on data visualization in next two milestones!
 
