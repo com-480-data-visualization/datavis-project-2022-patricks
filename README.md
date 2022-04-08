@@ -93,7 +93,7 @@ The primary dimension of the visualization is as followings:
 
 
 
-| For other pre-analysis of the dataset, please refer to https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/data_analysis.ipynb
+> For other pre-analysis of the dataset, please refer to https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/data_analysis.ipynb
 
 
 
