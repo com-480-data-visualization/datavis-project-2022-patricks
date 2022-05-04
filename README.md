@@ -151,21 +151,21 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 <img src="./pics/data_race_sketch.png" style="zoom:67%;" >
 
 
-<h2 id="figure3"> Figure 3 () </h2>
+<h2 id="figure3"> Figure 3 (game similarity edge bundling) </h2>
 
-- **`Introduction`**
+- **`Introduction`** In the circle, a group of points represents the games from a company. The links between points represenst similarity between two games with respect to genre, rating(E, M, T etc), and type(multi/single player). When we move our mouse to a point, it would hightlight links from this point to other points, namely games.
 
-- **`Usage`**
+- **`Usage`** This graph can help game players to find out some games that are similar to their favorite games. Besides, it can also help companies to find their competitors. As for investers, they can have a better understanding of the games that they invest.
 
-- **`Progress`**
+- **`Progress`** In the next milestone, we want to deliver more information via the links like the similarity ratios corresponding to genre, rating(E, M, T etc), and type(multi/single player).
 
-<h2 id="figure4"> Figure 4 () </h2>
+<h2 id="figure4"> Figure 4 (top games bubbling) </h2>
 
-- **`Introduction`**
+- **`Introduction`** Every bubble represents a company and the size of each bubble means the number of games that corresponding company publishes.  When we move our mouse to a specific company, the circles with mouse on would become large; and at left side there would appear top 6 games of that company. When we move out the mouse, the size of circle would return to normal size and the games would disappear.
 
-- **`Usage`**
+- **`Usage`** This graph can vividly show the circulation as well as market share of different game companies. What is more, for a specific game, you can find the most popular games published by it so as to have a basic impression on it.
 
-- **`Progress`**
+- **`Progress`** In the next milestone, we would change the color of bubbles into the logos of corresponding companies. Besides, we would provide the real data of a specific company when moving mouse on it.(Currently, it is static which means that now it would always show the same figure about six top games.)
 
 ## **Tools to be used and inspirations from lectures**
 
