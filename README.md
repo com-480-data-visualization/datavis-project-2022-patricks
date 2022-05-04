@@ -1,6 +1,17 @@
-# Milestone 1 (Friday 8th April)
+### This is a report of project in the course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) of EPFL. The project is divided into [milestone1](#1), [milestone2](#2) and milestone3.
 
-This is the report of milestone 1 in the course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) of EPFL.
+### Please view current progress of our website via https://dvpatricks.github.io/index.html
+
+### If you have further questions about the project, please contact:
+
+- [Guosheng Feng]()
+
+- [Haixin Shi]()
+
+- [Zhiye Wang](zhiye.wang@epfl.ch)
+
+
+<h1 id="1"> Milestone 1 (Friday 8th April) </h1>
 
 ## Dataset
 
@@ -111,17 +122,61 @@ We use pie chart, bar chart and line chart in our analysis. For each kind of the
 
 
 
-# Milestone 2 (Friday 6th May)
+<h1 id="2"> Milestone 2 (Friday 6th May) </h1>
 
-This is the report of milestone 2 in the course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) of EPFL.
-
-The initial version of our website is accessible on 
+The initial version of our website is accessible on https://dvpatricks.github.io/index.html
 
 
-## Figure 1 (scatter plot for score distribution)
-    It is made up with selectors and scatter plot. There are three selectors(rating, platform and genre for now) at top of the figure. Users are able to set conditions and filter out the games that meet the criteria. For the scatter, x-axis stands for user score and y-axis represents meta score. Filtered games are going to be shown on the figure according to their scores. When users hover their mouse on the points, A hover box will display the .This module
+<h2 id="figure1"> Figure 1 (scatter plot for score distribution) </h2>
 
-## Figure 2
+- **`Introduction`** It is made up with selectors and scatter plot. There are three **selectors**(rating, platform and genre for now) at top of the figure. Users are able to set conditions and filter out the games that meet the criteria. For the **scatter** part, x-axis stands for user score and y-axis represents meta score. Filtered games are going to be shown on the figure according to their scores. When users hover their mouse on the points, A hover box will display a breif discription about the game. If users are interested in the description, they can futher click the points and enter the games website. 
+
+- **`Usage`** This module aims at helping and accelerating the process when finding potential interested games. Scores for games from meta and other users are obvious to the users in a scatter plot. Below is an initial version of the module and we further add some comments about what need to be improved and implemented.
+
+- **`Progress`** The current progress is we have implemented three easy ***select*** labels(single choice). We can extract key words from the ***select*** and filter data according to the conditions. We attach an event ***onchange*** to the select and when detected there is a change in the ***select***, it will replot the picture. Also every points in the plot has events ***mouseover*** and ***mouseout***. Concrete events are still need to be implemented.
 
 
+<img src="./pics/scatter_plot_sketch.png" style="zoom:67%;" >
 
+
+<h2 id="figure2"> Figure 2 (number of games yearly published on each platform race plot) </h2>
+
+- **`Introduction`** It is a **ranking** bar chart that count the number of games released per platform per year from 1995 to 2021. Every annual data will last for about three seconds and we also draw a transition animation between two frames to present the chance process. When users hover their mouse on the plot, the animation will pause and wait for a further check from the users. When users move their mouse from the plot, the animation will continue to play.
+
+- **`Usage`** This is a module for entertainment. For a game enthusiast, this module can help users understand the history and current status of various game platforms. 
+
+- **`Progress`** The current progress we made in this module is we have implemented the initial data race demo. It still needs to be prettified and add hover events.
+
+
+<img src="./pics/data_race_sketch.png" style="zoom:67%;" >
+
+
+<h2 id="figure3"> Figure 3 () </h2>
+
+- **`Introduction`**
+
+- **`Usage`**
+
+- **`Progress`**
+
+<h2 id="figure4"> Figure 4 () </h2>
+
+- **`Introduction`**
+
+- **`Usage`**
+
+- **`Progress`**
+
+## **Tools to be used and inspirations from lectures**
+
+For [Figure 1](#figure1), we use d3.js to obtain conditions embeded in the selectors and filter data used for drawing scatter plot. We also need bootstrap to pretty our button and selector. We also need to draw a scatter plot and bundle attached information with the points. We find **[reference code](https://observablehq.com/@d3/scatterplot)** here.
+
+For [Figure 2](#figure2), we use d3.js to draw barplot and bundle the data with the barplot. We find **[reference code](https://observablehq.com/@d3/bar-chart-race)** here.
+
+
+For [Figure 3](#figure3),
+
+For [Figure 4](#figure4),
+
+
+Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot.
