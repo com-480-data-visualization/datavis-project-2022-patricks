@@ -145,7 +145,7 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 
 - **`Usage`** This is a module for entertainment. For a game enthusiast, this module can help users understand the history and current status of various game platforms. 
 
-- **`Progress`** The current progress we made in this module is we have implemented the initial data race demo. It still needs to be prettified and add hover events.
+- **`Progress`** The current progress we made in this module is we have implemented the initial data race demo. It still needs to be prettified and add hover events. The figure below is a demo and shows what we have done for now. We add some comments on the sketch to describe features and functions of our module.
 
 
 <img src="./pics/data_race_sketch.png" style="zoom:67%;" >
