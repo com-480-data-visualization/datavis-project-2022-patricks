@@ -111,3 +111,17 @@ We use pie chart, bar chart and line chart in our analysis. For each kind of the
 
 
 
+# Milestone 2 (Friday 6th May)
+
+This is the report of milestone 2 in the course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) of EPFL.
+
+The initial version of our website is accessible on 
+
+
+## Figure 1 (scatter plot for score distribution)
+    It is made up with selectors and scatter plot. There are three selectors(rating, platform and genre for now) at top of the figure. Users are able to set conditions and filter out the games that meet the criteria. For the scatter, x-axis stands for user score and y-axis represents meta score. Filtered games are going to be shown on the figure according to their scores. When users hover their mouse on the points, A hover box will display the .This module
+
+## Figure 2
+
+
+
