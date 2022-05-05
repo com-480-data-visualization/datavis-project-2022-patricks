@@ -126,20 +126,17 @@ We use pie chart, bar chart and line chart in our analysis. For each kind of the
 
 The initial version of our website is accessible on https://dvpatricks.github.io/index.html
 
+<h2 id="figure4"> Figure 1 (WHO ARE THE TOP GAME COMPANIES?) </h2>
 
-<h2 id="figure1"> Figure 1 (scatter plot for score distribution) </h2>
+- **`Introduction`** Every bubble represents a company and the size of each bubble means the number of games that corresponding company publishes.  When we move our mouse to a specific company, the circles with mouse on would become large; and at left side there would appear top 6 games of that company. When we move out the mouse, the size of circle would return to normal size and the games would disappear.
 
-- **`Introduction`** It is made up with selectors and scatter plot. There are three **selectors**(rating, platform and genre for now) at top of the figure. Users are able to set conditions and filter out the games that meet the criteria. For the **scatter** part, x-axis stands for user score and y-axis represents meta score. Filtered games are going to be shown on the figure according to their scores. When users hover their mouse on the points, A hover box will display a breif discription about the game. If users are interested in the description, they can futher click the points and enter the games website. 
+- **`Usage`** This graph can vividly show the circulation as well as market share of different game companies. What is more, for a specific game, you can find the most popular games published by it so as to have a basic impression on it.
 
-- **`Usage`** This module aims at helping and accelerating the process when finding potential interested games. Scores for games from meta and other users are obvious to the users in a scatter plot. Below is an initial version of the module and we further add some comments about what need to be improved and implemented.
+- **`Progress`** In the next milestone, we would change the color of bubbles into the logos of corresponding companies. Besides, we would provide the real data of a specific company when moving mouse on it.(Currently, it is static which means that now it would always show the same figure about six top games.)
 
-- **`Progress`** The current progress is we have implemented three easy ***select*** labels(single choice). We can extract key words from the ***select*** and filter data according to the conditions. We attach an event ***onchange*** to the select and when detected there is a change in the ***select***, it will replot the picture. Also every points in the plot has events ***mouseover*** and ***mouseout***. Concrete events are still need to be implemented.
+<img src="./pics/Bubble Char.jpg" style="zoom:67%;" >
 
-
-<img src="./pics/scatter_plot_sketch.png" style="zoom:67%;" >
-
-
-<h2 id="figure2"> Figure 2 (number of games yearly published on each platform race plot) </h2>
+<h2 id="figure2"> Figure 2 (WHICH PLATFORM WILL YOU CHOOSE?) </h2>
 
 - **`Introduction`** It is a **ranking** bar chart that count the number of games released per platform per year from 1995 to 2021. Every annual data will last for about three seconds and we also draw a transition animation between two frames to present the chance process. When users hover their mouse on the plot, the animation will pause and wait for a further check from the users. When users move their mouse from the plot, the animation will continue to play.
 
@@ -150,8 +147,7 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 
 <img src="./pics/data_race_sketch.png" style="zoom:67%;" >
 
-
-<h2 id="figure3"> Figure 3 (game similarity edge bundling) </h2>
+<h2 id="figure3"> Figure 3 (MAYBE SOME RECOMMENDATION?) </h2>
 
 - **`Introduction`** In the circle, a group of points represents the games from a company. The links between points represenst similarity between two games with respect to genre, rating(E, M, T etc), and type(multi/single player). When we move our mouse to a point, it would hightlight links from this point to other points, namely games.
 
@@ -161,15 +157,17 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 
 <img src="./pics/Circle Chart.jpg" style="zoom:67%;" >
 
-<h2 id="figure4"> Figure 4 (top games bubbling) </h2>
 
-- **`Introduction`** Every bubble represents a company and the size of each bubble means the number of games that corresponding company publishes.  When we move our mouse to a specific company, the circles with mouse on would become large; and at left side there would appear top 6 games of that company. When we move out the mouse, the size of circle would return to normal size and the games would disappear.
+<h2 id="figure1"> Figure 4 (WHAT KIND OF THE GAME DO YOU LIKE?) </h2>
 
-- **`Usage`** This graph can vividly show the circulation as well as market share of different game companies. What is more, for a specific game, you can find the most popular games published by it so as to have a basic impression on it.
+- **`Introduction`** It is made up with selectors and scatter plot. There are three **selectors**(rating, platform and genre for now) at top of the figure. Users are able to set conditions and filter out the games that meet the criteria. For the **scatter** part, x-axis stands for user score and y-axis represents meta score. Filtered games are going to be shown on the figure according to their scores. When users hover their mouse on the points, A hover box will display a breif discription about the game. If users are interested in the description, they can futher click the points and enter the games website. 
 
-- **`Progress`** In the next milestone, we would change the color of bubbles into the logos of corresponding companies. Besides, we would provide the real data of a specific company when moving mouse on it.(Currently, it is static which means that now it would always show the same figure about six top games.)
+- **`Usage`** This module aims at helping and accelerating the process when finding potential interested games. Scores for games from meta and other users are obvious to the users in a scatter plot. Below is an initial version of the module and we further add some comments about what need to be improved and implemented.
 
-<img src="./pics/Bubble Char.jpg" style="zoom:67%;" >
+- **`Progress`** The current progress is we have implemented three easy ***select*** labels(single choice). We can extract key words from the ***select*** and filter data according to the conditions. We attach an event ***onchange*** to the select and when detected there is a change in the ***select***, it will replot the picture. Also every points in the plot has events ***mouseover*** and ***mouseout***. Concrete events are still need to be implemented.
+
+
+<img src="./pics/scatter_plot_sketch.png" style="zoom:67%;" >
 
 ## **Tools to be used and inspirations from lectures**
 
