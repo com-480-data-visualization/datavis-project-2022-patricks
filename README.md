@@ -180,4 +180,6 @@ For [Figure 3](#figure3), we prepare data and use d3.js to draw this graph. We f
 For [Figure 4](#figure4), we prepare data and use d3.js to draw this graph. We find **[reference code](https://observablehq.com/@d3/bubble-chart)** here.
 
 
-Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot.
+We have collected a lot of inspirations from the lecture slide “Graph Visualization” provided by KIRELL BENZI. To be more specific, in Figure 3, we would deliver the similarity score of two games via the tickness of the link between them. Besides, in Figure 4, we use size of the node to deliver the number of games that a company publishes.
+
+We want chanllenge ourselves to build a map to show the address information about game developers, which was inspired by the  lecture slide “Map” provided KIRELL BENZI.
