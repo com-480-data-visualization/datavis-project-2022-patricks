@@ -159,6 +159,8 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 
 - **`Progress`** In the next milestone, we want to deliver more information via the links like the similarity ratios corresponding to genre, rating(E, M, T etc), and type(multi/single player).
 
+<img src="./pics/Circle Chart.jpg" style="zoom:67%;" >
+
 <h2 id="figure4"> Figure 4 (top games bubbling) </h2>
 
 - **`Introduction`** Every bubble represents a company and the size of each bubble means the number of games that corresponding company publishes.  When we move our mouse to a specific company, the circles with mouse on would become large; and at left side there would appear top 6 games of that company. When we move out the mouse, the size of circle would return to normal size and the games would disappear.
@@ -173,10 +175,9 @@ For [Figure 1](#figure1), we use d3.js to obtain conditions embeded in the selec
 
 For [Figure 2](#figure2), we use d3.js to draw barplot and bundle the data with the barplot. We find **[reference code](https://observablehq.com/@d3/bar-chart-race)** here.
 
+For [Figure 3](#figure3), we prepare data and use d3.js to draw this graph. We find **[reference code](https://observablehq.com/@d3/bilevel-edge-bundling)** here.
 
-For [Figure 3](#figure3),
-
-For [Figure 4](#figure4),
+For [Figure 4](#figure4), we prepare data and use d3.js to draw this graph. We find **[reference code](https://observablehq.com/@d3/bubble-chart)** here.
 
 
 Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot.
