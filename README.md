@@ -169,6 +169,8 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 
 - **`Progress`** In the next milestone, we would change the color of bubbles into the logos of corresponding companies. Besides, we would provide the real data of a specific company when moving mouse on it.(Currently, it is static which means that now it would always show the same figure about six top games.)
 
+<img src="./pics/Bubble Chart.jpg" style="zoom:67%;" >
+
 ## **Tools to be used and inspirations from lectures**
 
 For [Figure 1](#figure1), we use d3.js to obtain conditions embeded in the selectors and filter data used for drawing scatter plot. We also need bootstrap to pretty our button and selector. We also need to draw a scatter plot and bundle attached information with the points. We find **[reference code](https://observablehq.com/@d3/scatterplot)** here.
