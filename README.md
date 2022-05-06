@@ -126,7 +126,7 @@ We use pie chart, bar chart and line chart in our analysis. For each kind of the
 
 The initial version of our website is accessible on https://dvpatricks.github.io/index.html
 
-<h2 id="figure4"> Figure 1 (WHO ARE THE TOP GAME COMPANIES?) </h2>
+<h2 id="figure1"> Figure 1 (WHO ARE THE TOP GAME COMPANIES?) </h2>
 
 - **`Introduction`** Every bubble represents a company and the size of each bubble means the number of games that corresponding company publishes.  When we move our mouse to a specific company, the circles with mouse on would become large; and at left side there would appear top 6 games of that company. When we move out the mouse, the size of circle would return to normal size and the games would disappear.
 
@@ -158,7 +158,7 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 <img src="./pics/Circle Chart.jpg" style="zoom:67%;" >
 
 
-<h2 id="figure1"> Figure 4 (WHAT KIND OF THE GAME DO YOU LIKE?) </h2>
+<h2 id="figure4"> Figure 4 (WHAT KIND OF THE GAME DO YOU LIKE?) </h2>
 
 - **`Introduction`** It is made up with selectors and scatter plot. There are three **selectors**(rating, platform and genre for now) at top of the figure. Users are able to set conditions and filter out the games that meet the criteria. For the **scatter** part, x-axis stands for user score and y-axis represents meta score. Filtered games are going to be shown on the figure according to their scores. When users hover their mouse on the points, A hover box will display a breif discription about the game. If users are interested in the description, they can futher click the points and enter the games website. 
 
