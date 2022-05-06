@@ -171,15 +171,14 @@ The initial version of our website is accessible on https://dvpatricks.github.io
 
 ## **Tools to be used and inspirations from lectures**
 
-For [Figure 1](#figure1), we use d3.js to obtain conditions embeded in the selectors and filter data used for drawing scatter plot. We also need bootstrap to pretty our button and selector. We also need to draw a scatter plot and bundle attached information with the points. We find **[reference code](https://observablehq.com/@d3/scatterplot)** here.
+For [Figure 1](#figure1), we prepare data and use d3.js to draw this graph. We find **[reference code](https://observablehq.com/@d3/bubble-chart)** here.
 
 For [Figure 2](#figure2), we use d3.js to draw barplot and bundle the data with the barplot. We find **[reference code](https://observablehq.com/@d3/bar-chart-race)** here.
 
 For [Figure 3](#figure3), we prepare data and use d3.js to draw this graph. We find **[reference code](https://observablehq.com/@d3/bilevel-edge-bundling)** here.
 
-For [Figure 4](#figure4), we prepare data and use d3.js to draw this graph. We find **[reference code](https://observablehq.com/@d3/bubble-chart)** here.
+For [Figure 4](#figure4), we use d3.js to obtain conditions embeded in the selectors and filter data used for drawing scatter plot. We also need bootstrap to pretty our button and selector. We also need to draw a scatter plot and bundle attached information with the points. We find **[reference code](https://observablehq.com/@d3/scatterplot)** here.
 
-
-We have collected a lot of inspirations from the lecture slide “Graph Visualization” provided by KIRELL BENZI. To be more specific, in Figure 3, we would deliver the similarity score of two games via the tickness of the link between them. Besides, in Figure 4, we use size of the node to deliver the number of games that a company publishes.
+We have collected a lot of inspirations from the lecture slide “Graph Visualization” provided by KIRELL BENZI. To be more specific, in Figure 3, we would deliver the similarity score of two games via the tickness of the link between them. Besides, in Figure 1, we use size of the node to deliver the number of games that a company publishes.
 
 We want chanllenge ourselves to build a map to show the address information about game developers, which was inspired by the  lecture slide “Map” provided KIRELL BENZI.
