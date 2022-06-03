@@ -184,6 +184,7 @@ We have collected a lot of inspirations from the lecture slide “Graph Visualiz
 We want chanllenge ourselves to build a map to show the address information about game developers, which was inspired by the  lecture slide “Map” provided KIRELL BENZI.
 
 <h1 id="3"> Milestone 3 (Friday 3th June) </h1>
+
 ## Process Book
 We have discussed what we did in our process book, which is very detailed, please refer to https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/Process_Book.pdf.
 
