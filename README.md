@@ -185,7 +185,7 @@ We want chanllenge ourselves to build a map to show the address information abou
 
 <h1 id="3"> Milestone 3 (Friday 3th June) </h1>
 ## Process Book
-We have discussed what we did in our process book, which is very detailed, please refer to **[here](https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/Process_Book.pdf)** .
+We have discussed what we did in our process book, which is very detailed, please refer to **[here](https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/Process_Book.pdf)** . **[here](https://github.com/com-480-data-visualization/datavis-project-2022-patricks/blob/main/Process_Book.pdf)**
 
 ## Screencast
 We have made a screencast to present our product, please refer to **[here](https://youtu.be/m2d1bH9zOfo)**
