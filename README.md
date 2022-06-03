@@ -1,12 +1,12 @@
-### This is a report of project in the course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) of EPFL. The project is divided into [milestone1](#1), [milestone2](#2) and milestone3.
+### This is a report of project in the course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) of EPFL. The project is divided into [milestone1](#1), [milestone2](#2) and [milestone3](#3).
 
 ### Please view current progress of our website via https://dvpatricks.github.io/index.html
 
 ### If you have further questions about the project, please contact:
 
-- [Guosheng Feng]()
+- [Guosheng Feng](guosheng.feng@epfl.ch)
 
-- [Haixin Shi]()
+- [Haixin Shi](haixin.shi@epfl.ch)
 
 - [Zhiye Wang](zhiye.wang@epfl.ch)
 
@@ -182,3 +182,13 @@ For [Figure 4](#figure4), we use d3.js to obtain conditions embeded in the selec
 We have collected a lot of inspirations from the lecture slide “Graph Visualization” provided by KIRELL BENZI. To be more specific, in Figure 3, we would deliver the similarity score of two games via the tickness of the link between them. Besides, in Figure 1, we use size of the node to deliver the number of games that a company publishes.
 
 We want chanllenge ourselves to build a map to show the address information about game developers, which was inspired by the  lecture slide “Map” provided KIRELL BENZI.
+
+<h1 id="3"> Milestone 3 (Friday 3th June) </h1>
+## Process Book
+We have discussed what we did in our process book, which is very detailed, please refer to **[here](./Process_Book.pdf)**.
+
+## Screencast
+We have made a screencast to present our product, please refer to **[here](https://youtu.be/m2d1bH9zOfo)**
+
+# Technical Setup
+We use D3.js and Bootstrap to implement our fancy website. And our local server is jekyll, use `bundle exec jekyll serve` command at scr file of our repository can run the website loacally.
